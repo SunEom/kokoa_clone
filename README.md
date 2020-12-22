@@ -1,3 +1,3 @@
 # Kokoa Clone
 
-Make a Kokoa Talk !
+Create a Kokoa Talk !
