@@ -2,6 +2,7 @@
 
 @import 'reset.css';
 @import 'status-bar.css';
+@import 'welcome-header.css';
 
 body {
   font-family: 'Open Sans', sans-serif;
