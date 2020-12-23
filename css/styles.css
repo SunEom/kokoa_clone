@@ -2,9 +2,8 @@
 
 @import 'reset.css';
 @import 'components/status-bar.css';
-@import 'screens/welcome-header.css';
 @import 'variables.css';
-@import 'screens/login-form.css';
+@import 'screens/login.css';
 
 body {
   font-family: 'Open Sans', sans-serif;
