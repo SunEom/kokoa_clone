@@ -32,3 +32,13 @@
   left: 20px;
   top: -13px;
 }
+
+.nav__notification-little {
+  width: 6px;
+  height: 6px;
+  border-radius: 3px;
+  background-color: tomato;
+  display: flex;
+  position: absolute;
+  right: -5px;
+}
