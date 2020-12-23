@@ -28,8 +28,6 @@
   width: 6px;
   height: 6px;
   border-radius: 3px;
-  background-color: tomato;
-  display: flex;
   position: absolute;
-  right: -5px;
+  left: 35px;
 }

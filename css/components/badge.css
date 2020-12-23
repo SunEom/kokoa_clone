@@ -11,3 +11,9 @@
   left: 20px;
   top: -13px;
 }
+
+.badge--sm {
+  width: 6px;
+  height: 6px;
+  border-radius: 3px;
+}
