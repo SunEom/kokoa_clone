@@ -22,7 +22,7 @@
   border-bottom: var(--main-border);
   margin: 25px 0;
   padding: 25px 0;
-  color: rgba(0, 0, 0, 0.3);
+  color: var(--gray);
   font-weight: 600;
 }
 
