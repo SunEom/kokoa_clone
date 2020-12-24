@@ -20,9 +20,11 @@
 }
 
 .user-component__subtitle {
+  display: flex;
   font-size: 14px;
   margin-top: 5px;
   color: rgba(0, 0, 0, 0.5);
+  align-items: center;
 }
 
 .user-component__avatart--xl {
@@ -50,4 +52,20 @@
 .user-component__time {
   margin-bottom: 10px;
   display: block;
+}
+
+.user-component__subtitle-notification {
+  content: '!';
+  margin-left: 5px;
+  color: tomato;
+  width: 6px;
+  height: 6px;
+  position: relative;
+  border-radius: 13px;
+  top: px;
+  font-weight: 600;
+  border: 1px solid tomato;
+  padding-left: 5px;
+  padding-right: 2px;
+  padding-bottom: 7px;
 }
