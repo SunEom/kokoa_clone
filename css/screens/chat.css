@@ -2,6 +2,13 @@
   background-color: #abc1d1;
   height: 200vh;
 }
+
+@media screen and (min-width: 700px) {
+  #chat-screen {
+    height: 0;
+  }
+}
+
 #chat-screen .status-bar {
   z-index: 2;
 }
