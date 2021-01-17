@@ -22,8 +22,17 @@
 .open-chat__header {
   display: flex;
   justify-content: space-between;
-  opacity: 0.8;
+  opacity: 0.6;
+  font-weight: 600;
   margin-bottom: 25px;
+}
+
+.open-chat__header h4 {
+  font-size: 18px;
+}
+
+.open-chat:hover .open-chat__header {
+  opacity: 1;
 }
 
 .open-chat__header span {
