@@ -3,13 +3,13 @@
   border-bottom: var(--main-border);
   margin: 25px 0;
   padding: 25px 0;
-  color: var(--gray);
+  color: rgba(250, 250, 250, 0.4);
   font-weight: 600;
   transition: color 0.1s ease-in-out;
 }
 
 .recommended-friends:hover {
-  color: black;
+  color: rgba(250, 250, 250, 0.7);
 }
 
 .recommended-friends span {
@@ -52,6 +52,9 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+.open-post:hover {
+  font-weight: 600;
 }
 
 .open-post__title {
