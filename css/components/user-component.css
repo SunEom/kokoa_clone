@@ -8,6 +8,10 @@
   justify-content: space-between;
 }
 
+.user-component:hover .user-component__text {
+  transform: scale(1.04);
+}
+
 .user-component__avatart {
   width: 70px;
   height: 70px;
@@ -47,6 +51,12 @@
   display: flex;
   flex-direction: column;
   align-items: flex-end;
+}
+
+.user-component .user-component__column:last-child:hover {
+  color: black;
+  font-weight: 600;
+  cursor: pointer;
 }
 
 .user-component__time {
