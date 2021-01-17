@@ -5,6 +5,11 @@
   padding: 25px 0;
   color: var(--gray);
   font-weight: 600;
+  transition: color 0.1s ease-in-out;
+}
+
+.recommended-friends:hover {
+  color: black;
 }
 
 .recommended-friends span {
