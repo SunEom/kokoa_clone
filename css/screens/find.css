@@ -25,6 +25,15 @@
   opacity: 0.6;
 }
 
+.open-chat:hover .open-chat__header h4 {
+  opacity: 1;
+}
+
+.open-chat__header span:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+
 .open-post {
   display: flex;
   justify-content: space-between;
@@ -75,6 +84,7 @@
 .open-post__photo img {
   height: 120px;
   width: 120px;
+  border-radius: 10px;
 }
 
 .open-post__heart-count {
