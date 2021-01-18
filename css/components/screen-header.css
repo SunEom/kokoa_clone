@@ -20,6 +20,7 @@
   position: relative;
   top: 3px;
   margin-left: 25px;
+  cursor: pointer;
 }
 
 .screen-header__icons__notification {
