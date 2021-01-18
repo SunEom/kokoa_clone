@@ -4,8 +4,11 @@
 
 .more-suggestions {
   margin-top: 30px;
+  margin-bottom: 30px;
   border-top: var(--main-border);
+  border-bottom: var(--main-border);
   padding-top: 40px;
+  padding-bottom: 40px;
 }
 
 .more-suggestions__title {
@@ -55,4 +58,45 @@
 .more-suggestions__icon:hover .more-suggestions__icon-image,
 .more-suggestions__icon:hover .more-suggestions__icon-text {
   transform: scale(1.2);
+}
+
+.weather__location {
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+
+.weather__info {
+  display: flex;
+  align-items: center;
+}
+
+.weather__now {
+  font-size: 40px;
+}
+
+.weather__today {
+  display: flex;
+  margin-left: 20px;
+}
+
+.weather__today__am,
+.weather__today__pm {
+  margin: 0px 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.weather__time {
+  font-size: 11px;
+  margin-bottom: 5px;
+}
+
+.weather__today__am > div,
+.weather__today__pm > div {
+  font-size: 30px;
+}
+
+.weather__today__am i,
+.weather__today__pm i {
+  margin-right: 6px;
 }
