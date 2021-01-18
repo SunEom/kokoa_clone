@@ -8,6 +8,10 @@
   background-color: black;
 }
 
+.status-bar--chat {
+  background-color: rgba(50, 50, 50);
+}
+
 .status-bar__column {
   width: 33%;
 }
