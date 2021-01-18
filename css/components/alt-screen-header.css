@@ -9,6 +9,9 @@
   background-color: rgba(50, 50, 50);
 }
 
+.alt-header--setting {
+  background-color: black;
+}
 .alt-header__column {
   width: 33%;
 }
