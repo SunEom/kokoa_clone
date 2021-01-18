@@ -45,6 +45,31 @@
   animation: fadeIn 0.3s linear;
 }
 
+.sub-chat {
+  width: 100%;
+  animation: SubChatFadeIn 0.3s ease-in-out forwards;
+  opacity: 0;
+}
+.sub-chat--one {
+  animation-delay: 1s;
+}
+
+.sub-chat--two {
+  animation-delay: 2s;
+}
+
+@keyframes SubChatFadeIn {
+  from {
+    transform: translateY(30px);
+    opacity: 0;
+  }
+
+  to {
+    transform: none;
+    opacity: 1;
+  }
+}
+
 .chat__timestamp {
   color: white;
   background-color: rgba(100, 100, 100);
