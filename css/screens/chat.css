@@ -110,6 +110,9 @@
 .message-row--own .message__info {
   flex-direction: row-reverse;
 }
+.message-row__content--no-image {
+  padding-left: 65px;
+}
 
 .reply {
   position: fixed;
