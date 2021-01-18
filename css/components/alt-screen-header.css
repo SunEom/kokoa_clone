@@ -16,6 +16,10 @@
   font-weight: 600;
 }
 
+.alt-header__column span {
+  cursor: pointer;
+}
+
 .alt-header__column:first-child {
   margin-right: auto;
 }
