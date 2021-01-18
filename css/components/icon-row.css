@@ -1,6 +1,7 @@
 .icon-row {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .icon-row__icon__container {
@@ -64,4 +65,27 @@
 
 .icon-row__icon:active {
   background-color: rgba(250, 250, 250, 0.4);
+}
+
+@media screen and (max-width: 450px) {
+  .icon-row__icon i {
+    font-size: 25px;
+  }
+  .icon-row__icon__container span {
+    font-size: 12px;
+  }
+  .icon-row__icon__container:hover i {
+    transform: scale(1.1);
+  }
+
+  .icon-row__icon__container:hover span {
+    font-weight: 700;
+    font-size: 14px;
+  }
+  .icon-row__icon {
+    padding: 10px;
+    width: 50px;
+    border-radius: 50%;
+    box-sizing: border-box;
+  }
 }

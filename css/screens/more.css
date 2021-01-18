@@ -21,14 +21,17 @@
 }
 
 .more-suggestions__icon {
-  margin-right: 30px;
   width: 25%;
   text-align: center;
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: space-around;
 }
 
+.more-suggestions__icon-text {
+  font-size: 14px;
+}
 .more-suggestions__icon-image {
   width: 60px;
   height: 60px;
@@ -36,7 +39,7 @@
   background-color: rgba(250, 250, 250, 0.6);
   opacity: 0.8;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   margin-bottom: 16px;
 }
@@ -99,4 +102,47 @@
 .weather__today__am i,
 .weather__today__pm i {
   margin-right: 6px;
+}
+
+@media screen and (max-width: 450px) {
+  .more-suggestions__icon-image i {
+    font-size: 20px;
+  }
+  .more-suggestions__icon-text {
+    font-size: 10px;
+  }
+  .more-suggestions__icon-image {
+    width: 45px;
+    height: 45px;
+  }
+  .weather__location {
+    font-size: 12px;
+    margin-bottom: 15px;
+  }
+
+  .weather__now {
+    font-size: 30px;
+  }
+
+  .weather__today__am,
+  .weather__today__pm {
+    margin: 0px 8px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .weather__time {
+    font-size: 11px;
+    margin-bottom: 5px;
+  }
+
+  .weather__today__am > div,
+  .weather__today__pm > div {
+    font-size: 30px;
+  }
+
+  .weather__today__am i,
+  .weather__today__pm i {
+    margin-right: 6px;
+  }
 }
