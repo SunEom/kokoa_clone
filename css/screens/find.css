@@ -161,3 +161,23 @@
   width: 100%;
   height: 50vw;
 }
+
+@media screen and (max-width: 450px) {
+  .open-post__photo img {
+    height: 90px;
+    width: 90px;
+    border-radius: 10px;
+  }
+  .open-post__heart-count {
+    display: flex;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 5px 10px;
+    border-radius: 20px;
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    font-size: 8px;
+  }
+}
