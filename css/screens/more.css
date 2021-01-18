@@ -14,10 +14,13 @@
 
 .more-suggestions__icons {
   display: flex;
+  justify-content: space-around;
 }
 
 .more-suggestions__icon {
   margin-right: 30px;
+  width: 25%;
+  text-align: center;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -32,10 +35,24 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 10px;
+  margin-bottom: 16px;
 }
 
 .more-suggestions__icon-image i {
   font-size: 30px;
   color: white;
+}
+
+.more-suggestions__icon:hover {
+  cursor: pointer;
+}
+
+.more-suggestions__icon-image,
+.more-suggestions__icon-text {
+  transition: transform 0.2s ease-in-out;
+}
+
+.more-suggestions__icon:hover .more-suggestions__icon-image,
+.more-suggestions__icon:hover .more-suggestions__icon-text {
+  transform: scale(1.2);
 }
