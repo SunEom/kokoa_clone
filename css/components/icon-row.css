@@ -36,6 +36,7 @@
 }
 
 .icon-row__icon__container span {
+  white-space: nowrap;
   position: relative;
   margin-top: 5px;
   transition: all 0.2s ease-in-out;
