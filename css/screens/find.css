@@ -19,6 +19,12 @@
   font-size: 18px;
 }
 
+.open-chat {
+  border-bottom: var(--main-border);
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+}
+
 .open-chat__header {
   display: flex;
   justify-content: space-between;
@@ -139,4 +145,19 @@
 .open-post__heart-count:hover i {
   will-change: transform;
   animation: heartBeat 1s linear infinite;
+}
+
+.kokoa-tv {
+  width: 100%;
+}
+
+.kokoa-tv__header {
+  margin-bottom: 20px;
+  opacity: 0.6;
+  font-size: 18px;
+  font-weight: 600;
+}
+.kokoa-tv__video iframe {
+  width: 100%;
+  height: 50vw;
 }
